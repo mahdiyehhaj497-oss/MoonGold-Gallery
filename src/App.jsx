@@ -3,7 +3,7 @@ import routes from "../router"
 export default function App() {
   return (
     <>
-<RouterProvider  router={routes}/>
+<RouterProvider router={routes}/>
       
     </>
   )
