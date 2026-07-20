@@ -1,3 +1,4 @@
+import { House } from "lucide";
 import { Link } from "react-router-dom";
 
 
@@ -19,7 +20,9 @@ export default function Navbar() {
               <span className="mr-6">سبد خرید</span>
             </Link>
             <Link to="/">
-              <span className="mr-6">صفحه اصلی</span>
+              <span className="mr-6">
+                <House />
+              </span>
             </Link>
           </div>
         </div>
