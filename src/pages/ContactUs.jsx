@@ -1,7 +1,11 @@
+import Navbar from "../component/shared/Navbar";
+
 export default function ContactUs() {
     return (
         <>
-        <div>contactus</div>
+            <div>
+                <Navbar/>
+        </div>
         </>
     )
 }

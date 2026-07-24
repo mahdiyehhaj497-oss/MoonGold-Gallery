@@ -1,5 +1,6 @@
 
 
+import {  House, PhoneCall, ShoppingBag } from "lucide-react";
 import { Link } from "react-router-dom";
 
 
@@ -10,18 +11,24 @@ export default function Navbar() {
           <div className="mr-auto">
             <span className="ml-6">قیمت طلا</span>
           </div>
-          <div className="ml-auto gap-5">
+          <div className="ml-auto gap-5 flex flex-row-reverse  items-center justify-center">
             <Link to="/singin">
-              <span className="mr-6">ثبت نام</span>
+              <span className="mr-6"></span>
             </Link>
             <Link to="/contact">
-              <span className="mr-6">ارتباط با ما </span>
+              <span className="mr-6 -pb-5">
+                <PhoneCall />
+              </span>
             </Link>
             <Link to="/paymentpage">
-              <span className="mr-6">سبد خرید</span>
+              <span className="mr-6">
+                <ShoppingBag/>
+              </span>
             </Link>
             <Link to="/">
-              <span className="mr-6">صفحه اصلی</span>
+              <span className="mr-6">
+                <House />
+              </span>
             </Link>
           </div>
         </div>
