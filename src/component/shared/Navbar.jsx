@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
       <>
-        <div className="flex justify-center items-center bg-linear-to-r from-feeli to-gold py-2 mx-5 rounded-3xl">
+        <div className="flex justify-center items-center bg-linear-to-r from-feeli to-gold py-2 mx-5 rounded-3xl h-14">
           <div className="mr-auto">
-            <span className="ml-6">قیمت طلا</span>
+            <span className="ml-6">قیمت لحظه ای طلا</span>
           </div>
-          <div className="ml-auto gap-5 flex flex-row-reverse  items-center justify-center">
+          <div className="ml-auto gap-5 flex flex-row-reverse  items-center justify-center pt-6">
             <Link to="/singin">
               <span className="mr-6"></span>
             </Link>

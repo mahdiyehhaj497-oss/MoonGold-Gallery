@@ -6,7 +6,7 @@ export default function HomePage() {
         <div className=" pt-6">
           <Navbar />
 
-          <div ></div>
+          <div className="bg-[url('public/pexels-karola-g-6276048.jpg')] bg-no-repeat bg-center bg-cover h-screen mx-6 rounded-2xl"></div>
         </div>
       </>
     );
