@@ -1,3 +1,4 @@
+import Footer from "../component/shared/Footer";
 import Navbar from "../component/shared/Navbar";
 import ShowSwiper from "../component/swiper/Showswiper";
 
@@ -18,7 +19,10 @@ export default function HomePage() {
           </div>
 
           <div>
-            <ShowSwiper/>
+            <ShowSwiper />
+          </div>
+          <div className="mt-8">
+            <Footer />
           </div>
         </div>
       </>

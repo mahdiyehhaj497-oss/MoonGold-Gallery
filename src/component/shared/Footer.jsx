@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>
-        <div>footer</div>
+        <div className="h-72 bg-gray-800"> footer</div>
         </>
     )
 }
